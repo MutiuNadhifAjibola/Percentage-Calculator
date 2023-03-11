@@ -1,0 +1,57 @@
+h1{text-align: center;
+    color: blue;
+    font-weight: bold;
+    text-shadow: 5px 5px 0px black;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+form{
+    width:100%;
+    text-align: center;
+}
+input{
+    max-width: 200px;
+    min-height: 10px;
+    border-radius:5px ;
+}
+h2{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    text-shadow: 5px 5px 0px black;
+}
+h1{
+    animation: 10s linear 0s infinite alternate-reverse myslide;
+}
+
+@keyframes myslide{
+    form-{margin-left: 0%;}
+    to{margin-right: 10%;}
+}
+body{
+    background-color: #9a9a;
+}
+
+
+h3{
+    text-align: center;
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    
+
+}
+h3{
+    animation: 2s  linear 0s infinite alternate-reverse  myslide;
+}
+@keyframes myslide{
+    form{margin-right: 0%;}
+    to{margin-left: 30%;}
+    
+}
